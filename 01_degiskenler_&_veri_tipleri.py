@@ -34,4 +34,4 @@ ad = "YAKUBİ"
 
 mesaj = selam + " " + ad
 
-print(mesaj)
+print(mesaj);
