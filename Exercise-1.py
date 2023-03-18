@@ -1,10 +1,11 @@
 # Exercise 1
 
 # We will write a string than try to reverse it and string
-name = "yakup acar"
-nameReverse = name[-1], name[-2], name[-3], name[-4], name[-5], name[-6], name[-7], name[-8], name[-9], name[-10]
+name = "yakup"
+nameReverse = name[-1] + name[-2] + name[-3] + name[-4] + name[-5]
 name = nameReverse
-nameR = name[-1], name[-2], name[-3], name[-4], name[-5], name[-6], name[-7], name[-8], name[-9], name[-10]
+nameR = name[-1] + name[-2] + name[-3] + name[-4] + name[-5]
+print(nameReverse)
 print(nameR)
 
 # Exercise 2
@@ -32,11 +33,10 @@ print(squareof9)
 
 # Create a dictionary (key, value)
 
-main = dict(
-    name="yakup acar",
-    nameBool=True,
-    oddnumbers=[1, 3, 5, 7, 9],
-)
+main = {}
+main[name] = "Yakup"
+print(main)
+
 
 # Exercise 5
 
