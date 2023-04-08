@@ -19,7 +19,7 @@ addition = 0
 
 for add in list2:
     a = addition
-    addition += + add
+    addition += add
     print(f"{a} + {add}: {addition}")
 
 # Change list elements
