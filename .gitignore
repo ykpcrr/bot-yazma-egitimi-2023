@@ -3,3 +3,8 @@
 
 # Python cache folder
 __pycache__
+
+# Log files
+
+logs
+*.log
