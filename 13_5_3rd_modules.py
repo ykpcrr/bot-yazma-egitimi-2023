@@ -5,8 +5,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from time import sleep
 
-
-
 response = requests.get("https://www.google.com/custom", {
     "q": "ramazan",
     "sitesearch": "https://teknolojiaihl.meb.k12.tr"
