@@ -10,5 +10,8 @@ logs
 *.log
 
 # DataBase
-
 *.db
+
+# Settings folder
+
+settings.py
