@@ -15,5 +15,5 @@ cursor.execute("INSERT INTO  students VALUES ('Yakup', 'Acar', '2007')")
 # Commit action
 connection.commit()
 
-# Close commit
+# Close commit 
 connection.close()
