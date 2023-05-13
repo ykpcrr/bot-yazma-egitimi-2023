@@ -15,3 +15,7 @@ logs
 # Settings folder
 
 settings.py
+
+# Excel files
+
+.xlsx
