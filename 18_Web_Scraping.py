@@ -3,10 +3,10 @@ import requests
 from bs4 import BeautifulSoup
 
 from aiogram import Bot, Dispatcher, executor, types
-
+from settings import API_TOKEN
 
 # Create the bot
-bot = Bot(token="6189754507:AAEqP5ZaGY1BMWZc3ZbYevC5tKcXrmqzQs4")
+bot = Bot(token=API_TOKEN)
 
 # Create dispatcher object to catch incoming codes
 
