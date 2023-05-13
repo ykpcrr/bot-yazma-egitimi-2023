@@ -21,6 +21,8 @@ while True:
     answer = input("""please select the action to do:
     1. Add student
     2. Edit student
+    3. List students
+    4. Delete student
     0. Exit
     """)
     if answer == "0":
@@ -38,10 +40,19 @@ while True:
                        f"VALUES('{name}', '{surname}', {grade}, '{branch}', '{birthday}', '{notes}')")
         connection.commit()
     elif answer == "2":
-        name = input("enter name of the student to edit:")
+        name = input("enter name of the student to edit: ")
         notes = input("Student's new notes (comma separated): ")
-
         cursor.execute(f"UPDATE students  SET notes = '{notes}' WHERE name = '{name}'")
+        connection.commit()
+    elif answer == "3":
+        cursor.execute("SELECT * FROM students ")
+        students = cursor.fetchall()
+        for student in students:
+            print(student)
+    elif answer == "4":
+        name = input("enter name of the student to delete: ")
+        cursor.execute(f"DELETE FROM students WHERE name = '{name}'")
+        print(f"{name} student deleted ")
         connection.commit()
 
 connection.commit()
