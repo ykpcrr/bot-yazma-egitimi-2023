@@ -13,7 +13,7 @@ bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
-async  def send_hello(message: types.Message):
+async def send_hello(message: types.Message):
     await message.answer("Hello there, if you want the last news enter /news code")
 
 @dp.message_handler(commands=["news"])
