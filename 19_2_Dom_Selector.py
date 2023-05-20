@@ -6,7 +6,6 @@ from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-
 # Build the browser in one line
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
