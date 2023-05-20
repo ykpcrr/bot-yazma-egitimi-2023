@@ -1,4 +1,4 @@
-# import of modules
+# import of module
 
 # Different way
 
