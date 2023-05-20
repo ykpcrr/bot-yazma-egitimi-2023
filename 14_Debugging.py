@@ -51,5 +51,5 @@ except ZeroDivisionError:
 """ 
 Debugging Techniques
 1. print
-2. Logging modules
+2. Logging module
 """
