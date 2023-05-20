@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 
 # The ChromeDriverManager in the web driver manager,
 # which will check and manage the chrome webriver versions, is imported
-from webdriver_manager.chrome import  ChromeDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
 
 # import sleep to slow down the speed
 from time import sleep
